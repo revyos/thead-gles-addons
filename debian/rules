@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+export DH_VERBOSE = 1
+export DESTDIR = debian/thead-gles-addons
+export DEB_BUILD_OPTIONS += nostrip
+
+%:
+	dh $@
+
+override_dh_install:
+	mkdir -p $(CURDIR)/$(DESTDIR)$(PREFIX)/
+	cp -avpr $(CURDIR)/addons/* $(CURDIR)/$(DESTDIR)$(PREFIX)/
+
+override_dh_clean:
+	echo "None"
+
