@@ -2,7 +2,7 @@ Source: thead-gles-addons
 Section: misc
 Priority: optional
 Maintainer: Han Gao <gaohan@iscas.ac.cn>
-Build-Depends: debhelper-compat (= 12), libdrm2, libwayland-client0
+Build-Depends: debhelper-compat (= 12), libdrm2, libwayland-client0, libx11-xcb1
 Standards-Version: 4.6.1
 Rules-Requires-Root: no
 
