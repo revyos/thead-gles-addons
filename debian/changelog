@@ -1,3 +1,9 @@
+thead-gles-addons (1.17+sdk1.5.4) unstable; urgency=medium
+
+  * Sync sdk 1.5.4 binary
+
+ -- Han Gao <gaohan@iscas.ac.cn>  Wed, 08 May 2024 18:05:39 +0800
+
 thead-gles-addons (1.17+sdk1.4.2) unstable; urgency=medium
 
   * Sync sdk 1.4.2 binary

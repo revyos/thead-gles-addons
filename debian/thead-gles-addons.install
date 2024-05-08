@@ -1,4 +1,5 @@
 etc/systemd/system/pvrsrvkm.service
+etc/powervr.ini
 lib/firmware/rgx.fw.36.52.104.182
 lib/firmware/rgx.sh.36.52.104.182
 usr/share/gpu/rmmod.sh
